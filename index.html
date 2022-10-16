@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN KUYYYYY!</title>
+    <style>
+        body {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .btn-kuy {
+            margin: 20px;
+            background-color: #16A34A;
+            height: 30px;
+            width: 100px;
+            color: white;
+            border-radius: 5px;
+            border-color: #16A34A;
+        }
+
+        /* #btn {
+            margin: 20px;
+            position: absolute;
+            transition: .5s;
+            background-color: #B91C1C;
+            height: 30px;
+            width: 100px;
+            color: white;
+            border-radius: 5px;
+            border-color: #B91C1C;
+        } */
+        #btn {
+            margin: 20px;
+            position: absolute;
+            transition: .5s;
+            background-color: #B91C1C;
+            height: 30px;
+            width: 100px;
+            color: white;
+            border-radius: 5px;
+            border-color: #B91C1C;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MIMIII COMELLL!!</h1>
+    <h1>AYOO MAINN! 🥺🥺</h1>
+    <h3>Semarang City Lightnya BAGUSS LOHHHHH! Kesukaan Mimiii! 🤗</h3>
+    <button id="btn-kuy" class="btn-kuy">KUYYY</button>
+    <button id="btn">GAKK MAUU</button>
+
+    <script>
+        const buttonKuy = document.getElementById('btn-kuy');
+        const button = document.getElementById('btn');
+        button.addEventListener('mouseover', function () {
+            button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+            button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+        });
+        button.addEventListener('click', function () {
+            alert('hm 😢')
+        })
+        buttonKuy.addEventListener('click', function () {
+            alert('HEHEHEHE unblock wa duls dong 🤠')
+        })
+    </script>
+
+</body>
+
+</html>
